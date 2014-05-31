@@ -19,6 +19,8 @@
 		0ABD86661936D38C006D4CAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ABD864E1936D38C006D4CAA /* UIKit.framework */; };
 		0ABD866E1936D38C006D4CAA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0ABD866C1936D38C006D4CAA /* InfoPlist.strings */; };
 		0ABD86701936D38C006D4CAA /* tipcalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABD866F1936D38C006D4CAA /* tipcalculatorTests.m */; };
+		0ABD867C1936D491006D4CAA /* TipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABD867A1936D491006D4CAA /* TipViewController.m */; };
+		0ABD867D1936D491006D4CAA /* TipViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ABD867B1936D491006D4CAA /* TipViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		0ABD866B1936D38C006D4CAA /* tipcalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tipcalculatorTests-Info.plist"; sourceTree = "<group>"; };
 		0ABD866D1936D38C006D4CAA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0ABD866F1936D38C006D4CAA /* tipcalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tipcalculatorTests.m; sourceTree = "<group>"; };
+		0ABD86791936D491006D4CAA /* TipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipViewController.h; sourceTree = "<group>"; };
+		0ABD867A1936D491006D4CAA /* TipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipViewController.m; sourceTree = "<group>"; };
+		0ABD867B1936D491006D4CAA /* TipViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TipViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				0ABD865A1936D38C006D4CAA /* AppDelegate.m */,
 				0ABD865C1936D38C006D4CAA /* Images.xcassets */,
 				0ABD86511936D38C006D4CAA /* Supporting Files */,
+				0ABD86791936D491006D4CAA /* TipViewController.h */,
+				0ABD867A1936D491006D4CAA /* TipViewController.m */,
+				0ABD867B1936D491006D4CAA /* TipViewController.xib */,
 			);
 			path = tipcalculator;
 			sourceTree = "<group>";
@@ -219,6 +227,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ABD867D1936D491006D4CAA /* TipViewController.xib in Resources */,
 				0ABD86551936D38C006D4CAA /* InfoPlist.strings in Resources */,
 				0ABD865D1936D38C006D4CAA /* Images.xcassets in Resources */,
 			);
@@ -240,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0ABD865B1936D38C006D4CAA /* AppDelegate.m in Sources */,
+				0ABD867C1936D491006D4CAA /* TipViewController.m in Sources */,
 				0ABD86571936D38C006D4CAA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,6 +370,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "tipcalculator/tipcalculator-Prefix.pch";
 				INFOPLIST_FILE = "tipcalculator/tipcalculator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -373,6 +384,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "tipcalculator/tipcalculator-Prefix.pch";
 				INFOPLIST_FILE = "tipcalculator/tipcalculator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -437,6 +449,7 @@
 				0ABD86751936D38C006D4CAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0ABD86761936D38C006D4CAA /* Build configuration list for PBXNativeTarget "tipcalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +458,7 @@
 				0ABD86781936D38C006D4CAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
