@@ -12,6 +12,8 @@ A tip calculator app for iPhone that supports bill splitting.
 
 ## Improvements to be Made
 
+* Add a done button on the keyboards
+* Consider using a number stepper for split (bills are not likely going to be split with over 10 people)
 * When split value is empty, Price per person should be blank instead of null or inf
 * The Split label doesn't make the field's funtionality 100% clear to the users
 
