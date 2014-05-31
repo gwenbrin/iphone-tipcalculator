@@ -10,11 +10,11 @@ A tip calculator app for iPhone that supports bill splitting.
 * Added in bill splitting fuctionality
 * Created a reciept-like view for calculation result
 
-## Screenshot
-
-<img src="screenshot.png" width="320px" height="auto>
-
 ## Improvements to be Made
 
-* When split value is empty, "Price per person" should be blank instead of null or inf
-* The "Split" label doesn't make the field's funtionality 100% clear to the users
+* When split value is empty, Price per person should be blank instead of null or inf
+* The Split label doesn't make the field's funtionality 100% clear to the users
+
+## Screenshot
+
+<img src="screenshot.png" width="320px" height="auto">
